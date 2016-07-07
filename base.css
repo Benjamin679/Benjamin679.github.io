@@ -1,0 +1,81 @@
+body{
+    background-image: url(https://lh5.ggpht.com/X6S-3G1irwe649hOPWe2GYqcl4eSxK69r6Y1CGoC9oXk45MRwTTywpz0vdVoQS0_vVVX=h900);
+    background-size: cover;
+    
+}
+h1{
+    color: #006600;
+    font-family: Broadway, Helvetica, sans-serif;
+    /*margin-left: 400px;
+    margin-top: 170px;*/
+    border-style: solid;
+    width: fit-content;
+    padding: 10px;
+    background-color:rgba(255, 255, 255, .7);
+    position: relative; 
+    left: 495px;
+    top: 880px;
+    border-color: #006600;
+    transition: .5s ease-in-out;
+}
+h1 .BIO .Hobby .Goal .contacting:hover{
+    background-color:rgba(255, 255, 255, 1);
+}
+h2{
+    font-family: Broadway, Helvetica, sans-serif;
+    }
+.BIO{
+    border-style: solid;
+    width: fit-content;
+    padding: 10px;
+    background-color:rgba(255, 255, 255, .7);
+    position: relative;
+    top: 737px;
+    left: -4px;
+    margin-top: 0;
+    border-color: #2e2eb8;
+}
+.Hobby{
+    border-style: solid;
+    width: fit-content;
+    padding: 10px;
+    background-color:rgba(255, 255, 255, .7);
+    position: relative;
+    left: -4px;
+    top: -46px;
+    border-color: #e60000;
+}
+.Goal{
+    border-style: solid;
+    width: fit-content;
+    padding: 10px;
+    background-color:rgba(255, 255, 255, .7);
+    position: relative;
+    top: -30px;
+    left: -4px;
+    border-color: #e65c00;
+}
+.Contacting{
+    border-style: solid;
+    width: fit-content;
+    padding: 10px;
+    background-color:rgba(255, 255, 255, .7);
+    position: relative;
+    top: 5px;
+    left: 847px;
+    border-color: #b30086;
+    
+}
+.Biocolor{
+color: #2e2eb8;
+}
+.Hobcolor{
+ color: #e60000;
+}
+.Go{
+ color: #e65c00;
+}
+.Contactcolor{
+ color: #b30086;
+}
+
