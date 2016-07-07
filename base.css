@@ -6,20 +6,23 @@ body{
 h1{
     color: #006600;
     font-family: Broadway, Helvetica, sans-serif;
-    /*margin-left: 400px;
-    margin-top: 170px;*/
     border-style: solid;
     width: fit-content;
     padding: 10px;
     background-color:rgba(255, 255, 255, .7);
-    position: relative; 
+    position: relative;
     left: 495px;
     top: 880px;
     border-color: #006600;
-    transition: .5s ease-in-out;
-}
-h1 .BIO .Hobby .Goal .contacting:hover{
+    animation-name: h1;
+    animation-duration: 2s;
+    animation-delay: 2s;
+    animation-iteration-count: 5;
+   }
+
+h1:hover, .BIO:hover, .Hobby:hover, .Goal:hover, .Contacting:hover{
     background-color:rgba(255, 255, 255, 1);
+    transition: .4s ease-in-out;
 }
 h2{
     font-family: Broadway, Helvetica, sans-serif;
@@ -29,7 +32,7 @@ h2{
     width: fit-content;
     padding: 10px;
     background-color:rgba(255, 255, 255, .7);
-    position: relative;
+    position: fixed;
     top: 737px;
     left: -4px;
     margin-top: 0;
@@ -60,22 +63,41 @@ h2{
     width: fit-content;
     padding: 10px;
     background-color:rgba(255, 255, 255, .7);
-    position: relative;
-    top: 5px;
+    position: fixed;
+    top: 350px;
     left: 847px;
     border-color: #b30086;
     
 }
 .Biocolor{
-color: #2e2eb8;
+    color: #2e2eb8;
 }
 .Hobcolor{
- color: #e60000;
+    color: #e60000;
 }
 .Go{
- color: #e65c00;
+    color: #e65c00;
 }
 .Contactcolor{
- color: #b30086;
+    color: #b30086;
 }
-
+@keyframes h1{
+    0% { transform: transformY(-100px);}
+    100% { transform: transformY(0px);}
+}
+#h1 {transition-timing-function: linear;}
+.Fimg{
+   width: auto;
+   height: auto;
+   max-width: 350px;
+   max-height: 350px;
+   position: relative;
+   left: 875px;
+   bottom: 500px;
+   
+}
+img{
+   border-radius: 5px; 
+   border-color: yellow;
+   border-style: solid;
+}
